@@ -1,0 +1,164 @@
+# Logfile created on Fri Dec 18 01:51:37 +0530 2009  [4;36;1mSQL (49.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (63.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (247.0ms)[0m   [0;1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;35;1mSQL (211.0ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: query: not connected: SHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: query: not connected: SHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: query: not connected: SHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: query: not connected: SHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: query: not connected: SHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: query: not connected: SHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: query: not connected: SHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: query: not connected: SHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (34.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (123.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (118.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-12-18 02:51:41) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Rendered main/_logo (0.0ms)
+Rendered main/_menu (0.0ms)
+  [4;36;1mCity Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: cities: SELECT id, name, permalink FROM "cities" ORDER BY name ASC[0m
+Rendering H:/public/Project/ROR/railist/public/404.html
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-12-18 02:51:47) [GET]
+Rendering template within layouts/main
+Rendering main/index
+Rendered main/_logo (0.0ms)
+Rendered main/_menu (1.0ms)
+  [4;35;1mCity Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: cities: SELECT id, name, permalink FROM "cities" ORDER BY name ASC[0m
+Rendering H:/public/Project/ROR/railist/public/404.html
+  [4;36;1mSQL (2.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (19.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (272.0ms)[0m   [0;1mCREATE TABLE `categories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `permalink` varchar(75), `parent_id` int(11) DEFAULT 0, `type` varchar(12), `pos` int(11) DEFAULT 0, `pagetitle` varchar(100) DEFAULT 'railslist.com', `metakey` varchar(255) DEFAULT 'railslist.com', `metadesc` varchar(255) DEFAULT 'railslist.com', `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (101.0ms)[0m   [0;1mCREATE TABLE `cities` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `permalink` varchar(75), `pagetitle` varchar(100), `metakey` varchar(255), `metadesc` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (91.0ms)[0m   [0;1mCREATE TABLE `classifieds` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(75), `description` text, `location` varchar(75), `adtype` varchar(1) DEFAULT 'O', `email` varchar(75), `phone` varchar(75), `activation_code` varchar(40), `status` tinyint DEFAULT 0, `category_id` int(11), `subcategory_id` int(11), `city_id` int(11), `permalink` varchar(255), `image_file_name` varchar(255), `image_content_type` varchar(255), `image_file_size` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (69.0ms)[0m   [0;1mCREATE TABLE `simple_captcha_data` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `key` varchar(40), `value` varchar(6), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (2.0ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (108.0ms)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('0')[0m
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-12-18 03:04:14) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/main
+Rendering main/index
+Rendered main/_logo (0.0ms)
+Rendered main/_menu (0.0ms)
+  [4;35;1mCity Load (18.0ms)[0m   [0mSELECT id, name, permalink FROM `cities` ORDER BY name ASC[0m
+Completed in 87ms (View: 59, DB: 19) | 200 OK [http://localhost/]
+
+
+Processing ClassifiedsController#new (for 127.0.0.1 at 2009-12-18 03:04:16) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mClassified Columns (39.0ms)[0m   [0mSHOW FIELDS FROM `classifieds`[0m
+Rendering template within layouts/classifieds
+Rendering classifieds/new
+  [4;36;1mCategory Load (43.0ms)[0m   [0;1mSELECT * FROM `categories` WHERE (`categories`.`parent_id` = '0') ORDER BY pos asc[0m
+  [4;35;1mCity Load (0.0ms)[0m   [0mSELECT id, name, permalink FROM `cities` ORDER BY name ASC[0m
+  [4;36;1mSimpleCaptchaData Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `simple_captcha_data`[0m
+  [4;35;1mSimpleCaptchaData Load (0.0ms)[0m   [0mSELECT * FROM `simple_captcha_data` WHERE (`simple_captcha_data`.`key` = '6d0ee2acdf069ed3f7775c9514c6910a8e74189c') LIMIT 1[0m
+  [4;36;1mSQL (9.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSimpleCaptchaData Create (1.0ms)[0m   [0mINSERT INTO `simple_captcha_data` (`updated_at`, `value`, `key`, `created_at`) VALUES('2009-12-17 21:34:24', '540266', '6d0ee2acdf069ed3f7775c9514c6910a8e74189c', '2009-12-17 21:34:24')[0m
+  [4;36;1mSQL (48.0ms)[0m   [0;1mCOMMIT[0m
+Rendered simple_captcha/_simple_captcha (0.0ms)
+Completed in 7773ms (View: 7707, DB: 39) | 200 OK [http://localhost/classifieds/new]
+
+
+Processing MainController#index (for 127.0.0.1 at 2009-12-18 03:04:24) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/main
+Rendering main/index
+Rendered main/_logo (0.0ms)
+Rendered main/_menu (1.0ms)
+  [4;36;1mCity Load (1.0ms)[0m   [0;1mSELECT id, name, permalink FROM `cities` ORDER BY name ASC[0m
+Completed in 32ms (View: 18, DB: 1) | 200 OK [http://localhost/]
